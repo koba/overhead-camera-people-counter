@@ -1,0 +1,13 @@
+bin
+build
+cmake_install.cmake
+compile_commands.json
+conanbuildinfo.cmake
+conaninfo.txt
+install_manifest.txt
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+CTestTestfile.cmake
+Makefile
+Testing

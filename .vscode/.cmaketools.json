@@ -1,0 +1,62 @@
+{
+  "variant": {
+    "label": "Debug",
+    "keywordSettings": {
+      "buildType": "debug"
+    },
+    "description": "Emit debug information without performing optimizations"
+  },
+  "activeEnvironments": [],
+  "codeModel": {
+    "configurations": [
+      {
+        "name": "Debug",
+        "projects": [
+          {
+            "buildDirectory": "/Volumes/SD/Projects/people-counter/build",
+            "name": "people-counter",
+            "sourceDirectory": "/Volumes/SD/Projects/people-counter",
+            "targets": [
+              {
+                "artifacts": [
+                  "/Volumes/SD/Projects/people-counter/build/bin/people-counter"
+                ],
+                "buildDirectory": "/Volumes/SD/Projects/people-counter/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "   -g   ",
+                    "includePath": [
+                      {
+                        "isSystem": true,
+                        "path": "/usr/local/include"
+                      },
+                      {
+                        "isSystem": true,
+                        "path": "/usr/local/include/opencv"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "src/main.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "people-counter",
+                "linkLanguageFlags": "-g",
+                "linkLibraries": "/usr/local/lib/libopencv_shape.3.2.0.dylib /usr/local/lib/libopencv_stitching.3.2.0.dylib /usr/local/lib/libopencv_superres.3.2.0.dylib /usr/local/lib/libopencv_videostab.3.2.0.dylib /usr/local/lib/libopencv_objdetect.3.2.0.dylib /usr/local/lib/libopencv_calib3d.3.2.0.dylib /usr/local/lib/libopencv_features2d.3.2.0.dylib /usr/local/lib/libopencv_flann.3.2.0.dylib /usr/local/lib/libopencv_highgui.3.2.0.dylib /usr/local/lib/libopencv_ml.3.2.0.dylib /usr/local/lib/libopencv_photo.3.2.0.dylib /usr/local/lib/libopencv_video.3.2.0.dylib /usr/local/lib/libopencv_videoio.3.2.0.dylib /usr/local/lib/libopencv_imgcodecs.3.2.0.dylib /usr/local/lib/libopencv_imgproc.3.2.0.dylib /usr/local/lib/libopencv_core.3.2.0.dylib",
+                "linkerLanguage": "CXX",
+                "name": "people-counter",
+                "sourceDirectory": "/Volumes/SD/Projects/people-counter",
+                "type": "EXECUTABLE"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cookie": "0.15049479043517366",
+    "inReplyTo": "codemodel",
+    "type": "reply"
+  }
+}
