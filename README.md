@@ -4,7 +4,7 @@
 
 ## Why do it exists?
 
-This repo was created out of the need to explore OpenCV library in order to count people passsing through a door. I based my research on this article http://www.femb.com.mx/people-counter/people-counter-1-installing-python-opencv-and-trying-it-out/ and the [OpenCV API reference](http://docs.opencv.org/3.0-beta/modules/refman.html).
+This repo was created out of the need to explore OpenCV library in order to count people passsing through a door. I based my research on this article http://www.femb.com.mx/people-counter and the [OpenCV API reference](http://docs.opencv.org/3.0-beta/modules/refman.html).
 
 ## How it works?
 
@@ -36,6 +36,6 @@ This repo was created out of the need to explore OpenCV library in order to coun
 
     `./build/people-counter`
 
-* Windows
+* Windows:
 
     `\build\people-counter.exe`
