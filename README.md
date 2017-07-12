@@ -28,7 +28,7 @@ This repo was created out of the need to explore OpenCV library in order to coun
     
 ## Build
 
-`cmake --build /build --target all`
+`cmake --build /build --target all`
 
 ## Run
 
