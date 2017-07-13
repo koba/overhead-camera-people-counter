@@ -1,6 +1,6 @@
 #include <opencv2/opencv.hpp>
-#include <stdio.h>
 #include <string>
+#include "help.cpp"
 #include "model/Line.cpp"
 #include "model/Person.cpp"
 #include "view/ImageGridWindow.cpp"
@@ -19,7 +19,9 @@ using namespace std;
 
 int main(int argc, char** argv) {
 
-    VideoCapture camera("/Volumes/SD/Projects/people-counter/data/bus.avi");
+    if (argc < 2) return help();
+
+    VideoCapture camera(argv[1]);
 
     Ptr<BackgroundSubtractor> backgroundSubstractor = createBackgroundSubtractorMOG2();
     int frameNumber = 0;

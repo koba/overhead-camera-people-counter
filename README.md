@@ -34,8 +34,8 @@ This repo was created out of the need to explore OpenCV library in order to coun
 
 * Linux / macOS:
 
-    `./build/people-counter`
+    `./build/people-counter data/bus.avi`
 
 * Windows:
 
-    `\build\people-counter.exe`
+    `\build\people-counter.exe  data\\bus.avi`
