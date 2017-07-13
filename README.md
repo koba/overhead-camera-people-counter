@@ -1,16 +1,19 @@
 # people-counter
 
-
-
-## Why do it exists?
+### Why do it exists?
 
 This repo was created out of the need to explore OpenCV library in order to count people passsing through a door. I based my research on this article http://www.femb.com.mx/people-counter and the [OpenCV API reference](http://docs.opencv.org/3.0-beta/modules/refman.html).
 
-## How it works?
+### How it works?
 
 [TODO]
 
-## Prerequisites
+### Build Requirements
+
+* cmake
+* OpenCV
+
+#### OpenCV Installation
 
 * Linux:
 
@@ -24,13 +27,13 @@ This repo was created out of the need to explore OpenCV library in order to coun
 
 * Windows:
 
-    [TODO: how to install opencv3]
+    [Download and install OpenCV](https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.2.0/opencv-3.2.0-vc14.exe/download)
     
-## Build
+### Build
 
 `cmake --build /build --target all`
 
-## Run
+### Run
 
 * Linux / macOS:
 
