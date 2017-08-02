@@ -4,30 +4,34 @@
 
 This repo was created out of the need to explore OpenCV library in order to count people passsing through a door. I based my research on this article http://www.femb.com.mx/people-counter and the [OpenCV API reference](http://docs.opencv.org/3.0-beta/modules/refman.html).
 
-## Build Requirements
+## Build
 
-* cmake
+### Pre-requisites
 
-* OpenCV
+#### Linux
 
-    <img src="https://i.imgur.com/olgvKch.png" witdh="16" height="16" /> **Linux**
+1. `apt-get install cmake g++ gdb`
 
-    ```
-    [TODO: how to install opencv3]
-    ```
+2. [TODO: how to install opencv3]
 
-    <img src="https://i.imgur.com/ndpoovo.png" witdh="16" height="16" />  **macOS**
+#### macOS
+
+1. `brew install cmake`
+
+2. OpenCV
 
     ```sh
     brew install opencv3 --with-ffmpeg
     brew link opencv3 --force
     ```
 
-    <img src="https://i.imgur.com/Hau30UN.png" witdh="16" height="16" />  **Windows**
+#### Windows
 
-    [Download and install OpenCV for Windows](https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.2.0/opencv-3.2.0-vc14.exe/download)
+1. Install [cmake](https://cmake.org/files/v3.9/cmake-3.9.0-win64-x64.msi)
+
+2. Install [OpenCV](https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.2.0/opencv-3.2.0-vc14.exe/download)
     
-## Build
+### Build `people-counter`
 
 `cmake --build /build --target all`
 
