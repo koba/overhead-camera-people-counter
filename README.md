@@ -12,7 +12,18 @@ This repo was created out of the need to explore OpenCV library in order to coun
 
 1. `apt-get install cmake g++ gdb`
 
-2. [TODO: how to install opencv3]
+2. OpenCV
+
+    ```sh
+    apt-get install git libavcodec-dev libavformat-dev libgtk2.0-dev libswscale-dev pkg-config
+    cd ~/
+    git clone https://github.com/opencv/opencv.git
+    mkdir release
+    cd release
+    cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_INSTALL_PREFIX=/usr/local ..
+    make
+    make install
+    ```
 
 #### macOS
 
