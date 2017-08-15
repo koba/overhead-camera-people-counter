@@ -33,7 +33,13 @@ This repo was created out of the need to explore OpenCV library in order to coun
     
 ### Build `people-counter`
 
-`cmake --build /build --target all`
+#### Linux
+
+`cmake -B/build -H.`
+
+#### macOS / Windows
+
+`cmake --build /build`
 
 ## Run
 
