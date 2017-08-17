@@ -1,7 +1,5 @@
-#ifndef HELP_CPP
-#define HELP_CPP
-
-#include <stdio.h>
+#include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -11,7 +9,5 @@ int help() {
     cout << endl << endl;
     cout << "   people-counter [path-to-video-file]";
     cout << endl << endl;
-    return 0;
+    return 1;
 }
-
-#endif

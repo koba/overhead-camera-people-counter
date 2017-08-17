@@ -1,10 +1,4 @@
-#ifndef LINE_CPP
-#define LINE_CPP
-
 #include <opencv2/opencv.hpp>
-
-#define LINE_DIRECTION_UP 1
-#define LINE_DIRECTION_DOWN -1
 
 using namespace cv;
 
@@ -22,10 +16,8 @@ public:
         this->start = Point(startX, startY);
         this->end = Point(endX, endY);
     }
-
-    inline bool operator==(const Line& right) {
-        return start == right.start && end == right.end;
-    }
 };
 
-#endif
+static bool operator==(const Line& left, const Line& right) {
+    return left.start == right.start && left.end == right.end;
+}

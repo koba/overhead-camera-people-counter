@@ -1,9 +1,6 @@
 // A C++ program to check if two given line segments intersect
 // http://www.geeksforgeeks.org/check-if-two-given-line-segments-intersect/
 
-#ifndef INTERSECT_CPP
-#define INTERSECT_CPP
-
 #include <opencv2/opencv.hpp>
 
 using namespace cv;
@@ -65,5 +62,3 @@ bool intersect(Point p1, Point q1, Point p2, Point q2) {
  
     return false; // Doesn't fall in any of the above cases
 }
-
-#endif
