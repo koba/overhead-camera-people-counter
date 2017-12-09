@@ -4,7 +4,7 @@
 
 It was created out of the need to explore OpenCV library in order to count people passsing through a door. I based my research and the code on this article http://www.femb.com.mx/people-counter and the [OpenCV API reference](http://docs.opencv.org/3.0-beta/modules/refman.html).
 
-## Installing Dependencies
+## 1. Installing Dependencies
 
 ### Linux
 
@@ -53,11 +53,11 @@ OpenCV:
 
 [opencv-3.2.0-vc14](https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.2.0/opencv-3.2.0-vc14.exe/download)
     
-## Build
+## 2. Build
 
 `cmake --build /build`
 
-## Run
+## 3. Run
 
 `./build/people-counter data/bus.avi`
 
