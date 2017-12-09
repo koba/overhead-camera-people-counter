@@ -1,54 +1,59 @@
-# people-counter
+# overhead-camera-people-counter
 
 ## Why do it exists?
 
-This repo was created out of the need to explore OpenCV library in order to count people passsing through a door. I based my research on this article http://www.femb.com.mx/people-counter and the [OpenCV API reference](http://docs.opencv.org/3.0-beta/modules/refman.html).
+It was created out of the need to explore OpenCV library in order to count people passsing through a door. I based my research and the code on this article http://www.femb.com.mx/people-counter and the [OpenCV API reference](http://docs.opencv.org/3.0-beta/modules/refman.html).
 
-## Build
+## Installing Dependencies
 
-### Pre-requisites
+### Linux
 
-#### Linux
+Compiler:
 
-1. `apt-get install cmake g++ gdb`
+```sh
+apt-get install cmake g++ gdb
+```
 
-2. OpenCV
+OpenCV:
 
-    ```sh
-    apt-get install git libavcodec-dev libavformat-dev libgtk2.0-dev libswscale-dev pkg-config
-    cd ~/
-    git clone https://github.com/opencv/opencv.git
-    mkdir release
-    cd release
-    cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_INSTALL_PREFIX=/usr/local ..
-    make
-    make install
-    ```
+```sh
+apt-get install git libavcodec-dev libavformat-dev libgtk2.0-dev libswscale-dev pkg-config
+cd ~/
+git clone https://github.com/opencv/opencv.git
+cd opencv
+mkdir release
+cd release
+cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_INSTALL_PREFIX=/usr/local ..
+make
+make install
+```
 
-#### macOS
+### macOS
 
-1. `brew install cmake`
+Compiler:
 
-2. OpenCV
+```sh
+brew install cmake
+```
 
-    ```sh
-    brew install opencv3 --with-ffmpeg
-    brew link opencv3 --force
-    ```
+OpenCV:
 
-#### Windows
+```sh
+brew install opencv3 --with-ffmpeg
+brew link opencv3 --force
+```
 
-1. Install [cmake](https://cmake.org/files/v3.9/cmake-3.9.0-win64-x64.msi)
+### Windows
 
-2. Install [OpenCV](https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.2.0/opencv-3.2.0-vc14.exe/download)
+Compiler: 
+
+[cmake-3.9.0-win64-x64](https://cmake.org/files/v3.9/cmake-3.9.0-win64-x64.msi)
+
+OpenCV:
+
+[opencv-3.2.0-vc14](https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.2.0/opencv-3.2.0-vc14.exe/download)
     
-### Build `people-counter`
-
-#### Linux
-
-`cmake -B/build -H.`
-
-#### macOS / Windows
+## Build
 
 `cmake --build /build`
 
