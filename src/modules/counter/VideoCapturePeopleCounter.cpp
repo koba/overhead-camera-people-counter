@@ -104,7 +104,7 @@ private:
 
     int frameNumber = 0;
     map<const Person*, int> lastFrameWherePersonWasSeen;
-    map<const Person*, vector<const Line> > linesCrossedByPerson;
+    map<const Person*, vector<Line> > linesCrossedByPerson;
 
     void countIfPersonIsCrossingTheRefLine(const Person* person) {
         int direction;
@@ -115,7 +115,7 @@ private:
         }
     }
     
-    bool isPersonCrossingTheRefLine(const Person* person, const Line& line, int* direction = NULL) {
+    bool isPersonCrossingTheRefLine(const Person* person, Line line, int* direction = NULL) {
         for (int i = 0; i < linesCrossedByPerson[person].size(); i++) {
             if (line == linesCrossedByPerson[person][i]) {
                 return false;
