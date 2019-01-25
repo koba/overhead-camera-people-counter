@@ -25,7 +25,7 @@ cmake ..
 make
 ```
 
-## 3. Run
+## How to run it?
 
 From `overhead-camera-people-counter` root folder:
 
