@@ -16,7 +16,7 @@ Run the script which corresponding to your OS:
     
 ### 2. Build
 
-<sub>From `overhead-camera-people-counter` root folder:</sub>
+From `overhead-camera-people-counter` root folder:
 
 ```
 mkdir build
