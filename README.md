@@ -2,7 +2,7 @@
 
 ## Why it exists?
 
-I created it out of the need to explore the OpenCV library to count people passing through a door. The algorithm is based on the thoughts written in this article http://www.femb.com.mx/people-counter.
+I created it out of the need to explore the OpenCV library to count people passing through a door. The algorithm is based on https://github.com/jeffskinnerbox/people-counter.
 
 ## How to build it?
 
