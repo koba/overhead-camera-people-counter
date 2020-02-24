@@ -1,8 +1,8 @@
 # overhead-camera-people-counter
 
-## Why do it exists?
+## Why it exists?
 
-It was created out of the need to explore OpenCV library in order to count people passsing through a door. The algorithm is based on the thoughts written in this article http://www.femb.com.mx/people-counter.
+I created it out of the need to explore the OpenCV library to count people passing through a door. The algorithm is based on the thoughts written in this article http://www.femb.com.mx/people-counter.
 
 ## How to build it?
 
