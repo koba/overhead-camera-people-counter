@@ -41,7 +41,7 @@ public:
     
     void onFrameProcess(const Mat& frame, const Mat& debugFrame) {
         // draw measurement lines
-        line(frame, Point(0, counter->refLine.end.y), Point(frame.cols, counter->refLine.end.y), COLOR_ENTRANCE_LINE, 2);
+        line(frame, Point(0, counter->refLine.start.y), Point(frame.cols, counter->refLine.end.y), COLOR_ENTRANCE_LINE, 2);
 
         // draw counters
         putText(frame, to_string(counter->peopleWhoEnteredCount) + " UP", Point(10, 20), FONT_HERSHEY_COMPLEX_SMALL, 0.75, COLOR_ENTRANCE_LINE);
